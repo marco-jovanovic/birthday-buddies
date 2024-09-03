@@ -1,0 +1,154 @@
+/* Box model reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default browser styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default list styles */
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default image styles */
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Normalize font sizes */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Normalize paragraph styles */
+p {
+  margin-bottom: 1em;
+}
+
+/* Normalize heading styles */
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+h6 {
+  font-size: 0.6em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 13rem;
+  object-fit: cover;
+}
+.clear-btn {
+  background-color: #dce0e4;
+  border: 1px solid #efe9e9;
+  padding: 12px;
+  width: 20%;
+  height: 100px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.clear-btn:hover {
+  background-color: #ddd;
+}
+
+.clear-btn:active {
+  background-color: #ccc;
+}
